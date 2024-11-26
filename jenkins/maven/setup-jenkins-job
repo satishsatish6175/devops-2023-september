@@ -45,6 +45,7 @@ wget https://dlcdn.apache.org/maven/maven-3/3.9.9/binaries/apache-maven-3.9.9-bi
    50  ls -l
    51  pwd
    52  M3_HOME='/opt/maven'
+      echo $PATH
    53  PATH="$M3_HOME/bin:$PATH"
    54  export PATH
    55  mvn -version
