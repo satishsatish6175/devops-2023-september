@@ -75,7 +75,7 @@ Artifact Name: ArtifactID + Version + Packaging --> as specified in pom.xml
 1st Feb 2024:
 48  wget https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.tar.gz
    49  ls -l
-   50  tar xvzf apache-maven-3.9.6-bin.tar.gz
+   50  apache-maven-3.9.9-bin.tar.gz
    51  ls -l
    52  mv apache-maven-3.9.6 /opt/
    53  cd /opt
